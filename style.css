@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: .7s;
+}
+
+body {
+    border: 0px solid black;
+    margin: -3px;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
+
+/* --ARTICLE1----------------------------------------------------- */
+
+#article1 {
+    background: url(https://i.ibb.co/dBLbrRV/bg1.jpg) no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+}
+
+#article1 a {
+    color: white;
+    text-decoration: none;
+    font-style: 25px;
+    filter: blur(0px);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin: auto;
+}
+
+#article1 .grils a {
+    flex-direction: column;
+}
+
+#article1 i {
+    padding-right: 8px;
+    /* font-size: 25px; */
+    display: block;
+}
+
+#article1 .grils i {
+    padding-right: 1px;
+    padding-left: 1px;
+    font-size: 25px;
+    margin-bottom: -8px;
+}
+
+#article1 a span {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    display: block;
+}
+
+#article1 #gril1 {
+    width: 100%;
+    border: 3px solid white;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+}
+
+#article1 .grils {
+    width: 50%;
+    border: 3px solid white;
+    height: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* ----ARTICLE2-------------------------------------------- */
+
+#article2 {
+    background: url(https://i.ibb.co/Fb5jb3J/bg2.jpg) no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 100vh;
+    float: right;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#article2 a {
+    color: white;
+    text-decoration: none;
+    font-style: 25px;
+    filter: blur(0px);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin: auto;
+}
+
+#article2 .grills a {
+    flex-direction: column;
+}
+
+#article2 i {
+    padding-right: 8px;
+    /* font-size: 25px; */
+    display: block;
+    font-size: 25px;
+}
+
+#article2 .grills i {
+    padding-right: 1px;
+    padding-left: 1px;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+#article2 a span {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    display: block;
+}
+
+#article2 .grillls {
+    width: 100%;
+    border: 3px solid white;
+    height: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+}
+
+#article2 .grills {
+    width: 50%;
+    border: 3px solid white;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* --MEDIA700--------------------------------------------------- */
+
+@media(max-width:700px) {
+    #article1 {
+        float: none;
+        width: 100%;
+    }
+    #article2 {
+        float: none;
+        width: 100%;
+    }
+}
+
+
+/* --MEDIA500--------------------------------------------------- */
+
+@media(max-width:500px) {
+    #article2,
+    #article1 {
+        height: 60vh;
+    }
+    body {
+        border: 0px solid black;
+        margin: -3px;
+    }
+}
+
+
+/* ---HOVER------------------------------------------------------------- */
+
+#article1 #gril1 :hover {
+    background: url(https://t3.ftcdn.net/jpg/00/84/71/02/360_F_84710252_ZrquscCqzOdXW00o6wMebF1TUp3wjkq9.jpg) no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+#article1 #gril2 :hover {
+    background: url(https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YnVzaW5lc3MlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fA%3D%3D&w=1000&q=80) no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+#article1 #gril3 :hover {
+    background: url(https://i.pinimg.com/736x/9b/e9/2a/9be92ad9fddcb0ab465c71dd31076a1f.jpg) no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+#article1 #gril4 :hover {
+    background: url(https://media.istockphoto.com/photos/statue-of-justice-picture-id801036242?k=20&m=801036242&s=612x612&w=0&h=wYZGhPKdqisRXTQEIQxXgmoB69dYAerU6_p57mcFRNI=) no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+#article1 #gril5 :hover {
+    background: url(https://t4.ftcdn.net/jpg/04/45/93/99/360_F_445939922_VuHFVWKE36dRAX49an0oOWROSEEwYTzN.jpg) no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+#article1 a i:hover {
+    background: red;
+}
+
+#article2 #gril2 :hover {
+    background: url(https://dawsonseng.com.au/wp-content/uploads/2022/02/untitled-design-24.png) no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+#article2 #gril3 :hover {
+    background: url(https://media.istockphoto.com/photos/digital-transformation-concept-system-engineering-binary-code-picture-id1329808536?b=1&k=20&m=1329808536&s=170667a&w=0&h=Ngy0kEuP_QbOGaY7fRXxFK_zg_6I5m4lH_0SaBhWtPE=) no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+#article2 #gril4 :hover {
+    background: url(https://i.pinimg.com/originals/92/81/e8/9281e8e8a1d0db79fd7d88f0e85daad4.png) no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+#article2 #gril5 :hover {
+    background: url(https://st.depositphotos.com/1907633/2184/i/600/depositphotos_21841631-stock-photo-success-smart-medical-doctor-with.jpg) no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
